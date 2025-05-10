@@ -14,6 +14,7 @@ public class ViewController {
 
     @Operation(summary = "Obtiene un profile de usuario"
             , description = "Devuelve los detalles de un usuario específico")
+
     @GetMapping("/profile")
     public String profile(OAuth2AuthenticationToken token, Model model)
     {

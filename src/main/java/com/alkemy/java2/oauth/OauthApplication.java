@@ -7,9 +7,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 @SpringBootApplication
 @EnableWebSecurity
 public class OauthApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(OauthApplication.class, args);
 	}
-
 }
